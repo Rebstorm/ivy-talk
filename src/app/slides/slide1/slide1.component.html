@@ -2,7 +2,28 @@
   <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="200" height="200" alt="Angular Logo">
   <h2>Ivy & The View Engines</h2>
 
+  <div *ngIf="areWeLost">
+    <div>Wah, something went wrong. </div>
+    <a routerLink="/slide1">
+      <svg class="icon-arrow before">
+        <use xlink:href="#arrow"></use>
+      </svg>
+      <span class="label">Restart</span>
+      <svg class="icon-arrow after">
+        <use xlink:href="#arrow"></use>
+      </svg>
+    </a>
+
+    <svg style="display: none;">
+      <defs>
+        <symbol id="arrow" viewBox="0 0 35 15">
+          <title>Arrow</title>
+          <path d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z "/>
+        </symbol>
+      </defs>
+    </svg>
+  </div>
 
 
-
+  <h3>Paul Jacks</h3>
 </div>
