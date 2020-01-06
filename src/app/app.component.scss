@@ -1,0 +1,22 @@
+/**
+  app component styles
+*/
+
+
+div.main-container {
+  display: block;
+  margin: 2em 2em 0 2em;
+  overflow-y: hidden;
+  height: 90vh;
+
+}
+
+div.slide-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-radius: 0.2rem;
+  height: inherit;
+  overflow-y: scroll;
+}

@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  margin: 0 !important;
+  font-family: 'Roboto', sans-serif;
+
+  background: linear-gradient(269deg, #12dbff, #086373, #0c9ab3);
+  background-size: 800% 800%;
+
+  -webkit-animation: right-to-left 26s ease infinite;
+  -moz-animation: right-to-left 26s ease infinite;
+  animation: right-to-left 26s ease infinite;
+}
+
+
+@-webkit-keyframes right-to-left {
+  0%{background-position:0% 49%}
+  50%{background-position:100% 52%}
+  100%{background-position:0% 49%}
+}
+@-moz-keyframes right-to-left {
+  0%{background-position:0% 49%}
+  50%{background-position:100% 52%}
+  100%{background-position:0% 49%}
+}
+@keyframes right-to-left {
+  0%{background-position:0% 49%}
+  50%{background-position:100% 52%}
+  100%{background-position:0% 49%}
+}
